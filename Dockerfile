@@ -1,4 +1,4 @@
-FROM rocker/verse:3.6.2
+FROM rocker/verse:3.6.3
 RUN apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get -y -q --no-install-recommends install \
   cargo \
   freeglut3-dev \
